@@ -101,22 +101,22 @@
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="https://heartstrokeprod.azureedge.net/-/media/images/articles/getty_1047798504_1920x1080.ashx?rev=10f9ef9ef9794e998b5cfe1bd3d60d85" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Flexible dieting, delivered !</h4>
                             <h1 class="display-3 text-white mb-md-4">Get a custom macro plan and health supplements delivered</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
+                            <a href="login.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Register Now</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="https://www.gannett-cdn.com/presto/2019/01/02/USAT/9e1db6f2-f886-4eef-921f-38760ebdc2f3-food.jpg?crop=5759,3239,x1,y546&width=1600&height=800&format=pjpg&auto=webp" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Flexible dieting, delivered !</h4>
                             <h1 class="display-3 text-white mb-md-4">Get a custom macro plan and health supplements delivered</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Learn More</a>
+                            <a href="login.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-lg-4" style="min-height: 400px;">
                     <div class="position-relative h-100 rounded overflow-hidden">
-                        <img class="position-absolute w-100 h-100" src="img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100" src="https://www.phillymag.com/wp-content/uploads/sites/3/2019/11/symptoms-nutrition-main.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4 py-5">
@@ -174,7 +174,7 @@
         <div class="row bg-primary m-0">
             <div class="col-md-6 px-0" style="min-height: 500px;">
                 <div class="position-relative h-100">
-                    <img class="position-absolute w-100 h-100" src="img/promotion.jpg" style="object-fit: cover;">
+                    <img class="position-absolute w-100 h-100" src="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1098,format=auto/sites/default/files/styles/1200x800/public/d8/images/canvas/2022/09/23/55a11516-66eb-49bc-afa0-a1341e0e6489_f5b0d248.jpg?itok=fHLRaaNv&v=1663897629" style="object-fit: cover;">
                     <button type="button" class="btn-play" data-toggle="modal"
                         data-src="https://www.youtube.com/watch?v=Gmh_xMMJ2Pw" data-target="#videoModal">
                         <span></span>
@@ -226,41 +226,41 @@
                     <div class="owl-carousel service-carousel">
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-1.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="https://149837922.v2.pressablecdn.com/wp-content/uploads/2022/05/shutterstock_1688913535-scaled-e1651743759503.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Quality Maintain</h5>
-                                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                <p>Best Quality Calorie-free Products and supplements available based on your diet.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-2.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="https://www.foodnavigator-usa.com/var/wrbm_gb_food_pharma/storage/images/_aliases/wrbm_large/publications/food-beverage-nutrition/foodnavigator-usa.com/news/manufacturers/for-personalized-nutrition-to-reach-its-full-market-potential-brands-must-better-explain-benefits/10808216-1-eng-GB/For-personalized-nutrition-to-reach-its-full-market-potential-brands-must-better-explain-benefits.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
                                 <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Individual Approach</h5>
-                                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                <p>Live sessions with Experienced Nutritionist and get Personalised diet plan.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-3.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/iifym-guide-1296x728-feature.jpg?w=1155&h=1528" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Celebration Ice Cream</h5>
-                                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Learn about macros</h5>
+                                <p>Take our free course to learn everything you need to know about macros.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
                         <div class="service-item">
                             <div class="service-img mx-auto">
-                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="img/service-4.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100 bg-light p-3" src="https://www.myvmc.com/wp-content/uploads/2013/11/shopping-basket-veggies-fruits.jpg" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded p-4 pb-5" style="margin-top: -75px;">
-                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Delivery To Any Point</h5>
-                                <p>Dolor nonumy sed eos sed lorem diam amet eos magna. Dolor kasd lorem duo stet kasd justo</p>
+                                <h5 class="font-weight-semi-bold mt-5 mb-3 pt-5">Delivery To your door-step</h5>
+                                <p>Get your supplements and products based on your diet delivered at your doorstep.</p>
                                 <a href="" class="border-bottom border-secondary text-decoration-none text-secondary">Learn More</a>
                             </div>
                         </div>
@@ -272,65 +272,7 @@
     <!-- Services End -->
 
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid my-5 py-5 px-0">
-        <div class="row justify-content-center m-0">
-            <div class="col-lg-5">
-                <h1 class="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
-            </div>
-        </div>
-        <div class="row m-0 portfolio-container">
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 p-0 portfolio-item">
-                <div class="position-relative overflow-hidden">
-                    <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                    <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                        <i class="fa fa-plus text-primary" style="font-size: 60px;"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
+
 
 
     <!-- Products Start -->
@@ -338,7 +280,7 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1 class="section-title position-relative mb-5">Best Prices We Offer For Ice Cream Lovers</h1>
+                    <h1 class="section-title position-relative mb-5">Best Products and Supplements</h1>
                 </div>
                 <div class="col-lg-6 mb-5 mb-lg-0 pb-5 pb-lg-0"></div>
             </div>
@@ -347,54 +289,45 @@
                     <div class="owl-carousel product-carousel">
                         <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
                             <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h4 class="font-weight-bold text-white mb-0">$99</h4>
+                                <h4 class="font-weight-bold text-white mb-0"> ₹180</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/product-1.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1XviUssiDCpNbFshu4XJoabOYJrxcGN00SaRT5uJJfGhUdOBJAzfOE2f0l4HRUDnC0lo&usqp=CAU" style="object-fit: cover;">
                             </div>
-                            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <h5 class="font-weight-bold mb-4">MultiVitamins</h5>
                             <a href="" class="btn btn-sm btn-secondary">Order Now</a>
                         </div>
                         <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
                             <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h4 class="font-weight-bold text-white mb-0">$99</h4>
+                                <h4 class="font-weight-bold text-white mb-0">₹100</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/product-2.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNtll01yVPGz6cOchJSmWDeItkMKEBws1Ttg&usqp=CAU" style="object-fit: cover;">
                             </div>
-                            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <h5 class="font-weight-bold mb-4">Calcium</h5>
                             <a href="" class="btn btn-sm btn-secondary">Order Now</a>
                         </div>
                         <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
                             <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h4 class="font-weight-bold text-white mb-0">$99</h4>
+                                <h4 class="font-weight-bold text-white mb-0">₹150</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/product-3.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJpthbunMuocdJg1HDqh3qu3wNlAtE70yOVw&usqp=CAU" style="object-fit: cover;">
                             </div>
-                            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <h5 class="font-weight-bold mb-4">Keto</h5>
                             <a href="" class="btn btn-sm btn-secondary">Order Now</a>
                         </div>
                         <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
                             <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h4 class="font-weight-bold text-white mb-0">$99</h4>
+                                <h4 class="font-weight-bold text-white mb-0">₹100</h4>
                             </div>
                             <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/product-4.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUfKAJYMebPrU5dm7-pk2FwEt-Co503O88g&usqp=CAU" style="object-fit: cover;">
                             </div>
-                            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+                            <h5 class="font-weight-bold mb-4">Oats</h5>
                             <a href="" class="btn btn-sm btn-secondary">Order Now</a>
                         </div>
-                        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
-                            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
-                                <h4 class="font-weight-bold text-white mb-0">$99</h4>
-                            </div>
-                            <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3" style="width: 150px; height: 150px;">
-                                <img class="rounded-circle w-100 h-100" src="img/product-5.jpg" style="object-fit: cover;">
-                            </div>
-                            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
-                            <a href="" class="btn btn-sm btn-secondary">Order Now</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -417,7 +350,7 @@
                     <div class="owl-carousel team-carousel">
                         <div class="team-item">
                             <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://www.investnational.com.au/wp-content/uploads/2016/08/person-stock-2.png" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                                 <h3 class="font-weight-bold mt-5 mb-3 pt-5">John Marks</h3>
@@ -431,7 +364,7 @@
                         </div>
                         <div class="team-item">
                             <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                                 <h3 class="font-weight-bold mt-5 mb-3 pt-5">Mary Roberts</h3>
@@ -445,7 +378,7 @@
                         </div>
                         <div class="team-item">
                             <div class="team-img mx-auto">
-                                <img class="rounded-circle w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
+                                <img class="rounded-circle w-100 h-100" src="https://media.istockphoto.com/photos/portrait-of-a-young-man-picture-id664572810?b=1&k=20&m=664572810&s=170667a&w=0&h=ND6xVhUb0Wt8xAzTEz6d5FuvV3Y2TR2JE7gUmtPgRlM=" style="object-fit: cover;">
                             </div>
                             <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
                                 <h3 class="font-weight-bold mt-5 mb-3 pt-5">Arvind Sharma</h3>
@@ -461,15 +394,7 @@
                             <div class="team-img mx-auto">
                                 <img class="rounded-circle w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
                             </div>
-                            <div class="position-relative text-center bg-light rounded px-4 py-5" style="margin-top: -100px;">
-                                <h3 class="font-weight-bold mt-5 mb-3 pt-5">Full Name</h3>
-                                <h6 class="text-uppercase text-muted mb-4">Designation</h6>
-                                <div class="d-flex justify-content-center pt-1">
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -493,21 +418,21 @@
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                             <h4 class="font-weight-light mb-4">If you’re going to track macros and adopt a flexible eating lifestyle, there’s only one way to do it–DietAI. I credit the Website not only with delivering my best physique to date, but also empowering my clients to fuel their endeavors enjoyably while reaping impressive aesthetic result</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
+                            <img class="img-fluid mx-auto mb-3" src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_481292845_77896.jpg" alt="">
                             <h5 class="font-weight-bold m-0">Nicole</h5>
                             <span>Data Analyst</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                             <h4 class="font-weight-light mb-4">DietAI has definitely changed my life. The Web helped me with tracking my meals and suggesting new ones I should eat. Each effort to improve the product has been amazing. I recommend this product to everyone that I know.</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
+                            <img class="img-fluid mx-auto mb-3" src="https://www.lohmancompany.com/wp-content/uploads/2014/06/iStock_000017387190_Small.jpg" alt="">
                             <h5 class="font-weight-bold m-0">Richard</h5>
                             <span>HR</span>
                         </div>
                         <div class="text-center">
                             <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
                             <h4 class="font-weight-light mb-4">Macro-tracking has been an essential part of my journey as a strength athlete. It helps ensure I have the proper nutrients to fuel my training, and also helps me stay within my weight class for competitions. If you’re new to the concept, DietAI makes it clear and easy.</h4>
-                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
+                            <img class="img-fluid mx-auto mb-3" src="https://media.istockphoto.com/photos/happy-businesswoman-stock-image-picture-id1124239071?k=20&m=1124239071&s=612x612&w=0&h=gJyYkhHjnRs_1-wVsMx_46xMsi5WlOz-8j5fXV2JGAE=" alt="">
                             <h5 class="font-weight-bold m-0">Akriti</h5>
                             <span>Athlete</span>
                         </div>
@@ -525,7 +450,7 @@
             <div class="row">
                 <div class="col-12 mb-4">
                     <a href="index.html" class="navbar-brand m-0">
-                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Diet</span>AI</h1>
                     </a>
                 </div>
                 <div class="col-12 mb-4">
@@ -538,8 +463,8 @@
                     <div class="row">
                         <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
                             <h5 class="font-weight-bold mb-2">Get In Touch</h5>
-                            <p class="mb-2">123 Street, New York, USA</p>
-                            <p class="mb-0">+012 345 67890</p>
+                            <p class="mb-2">23 Green Villas, Mumbai, India</p>
+                            <p class="mb-0">+22 23658711</p>
                         </div>
                         <div class="col-sm-6 text-center text-sm-left">
                             <h5 class="font-weight-bold mb-2">Opening Hours</h5>
@@ -548,10 +473,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
-                    </p>
-                </div>
+
             </div>
         </div>
     </div>
