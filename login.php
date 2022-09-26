@@ -250,7 +250,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <input type="password" class="form-control" name="password" id="password" placeholder="Enter Password">
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary" name="login">Login</button>
+                                    <input type="submit" class="btn btn-primary" name="login" value="Login">
                                 </div>
                             </form>
                         </div>
@@ -278,7 +278,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     <input type="password" class="form-control" name="cpassword" id="cpassword" placeholder="Re-enter Password">
                                 </div>
                                 <div class="form-group">
-                                    <button type="submit" class="btn btn-primary" name="signup">Register</button>
+                                    <input type="submit" class="btn btn-primary" name="signup" value="Register">
                                 </div>
                             </form>
                         </div>
