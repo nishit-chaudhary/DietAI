@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         if ($stmt) {
             mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
             $param_username = $username;
-            $param_password = password_hash($password, PASSWORD_DEFAULT);
+            $param_password = $password;
             if (mysqli_stmt_execute($stmt)) {
                 header("location: login.php");
             } else {
@@ -95,7 +95,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     }
 
     if(empty($username_err) && empty($password_err)){
-    //    $password = $param_password;
+        $param_password = $password;
         $sql = "SELECT username, password FROM users WHERE username = ?";
         if($stmt = mysqli_prepare($conn, $sql)){
             mysqli_stmt_bind_param($stmt, "s", $param_username);
