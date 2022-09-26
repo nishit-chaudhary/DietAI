@@ -185,7 +185,7 @@
                 <div class="h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                     <h1 class="font-weight-bold text-white mt-3 mb-4">Ready to start your own transformation?</h1>
                     <h1 class="font-weight-bold text-white mt-3 mb-4">Get started today.</h1>
-                    <a href="" class="btn btn-secondary py-3 px-5 mt-2">Get A Custom Plan</a>
+                    <a href="form.html" class="btn btn-secondary py-3 px-5 mt-2">Get A Custom Plan</a>
                 </div>
             </div>
         </div>
