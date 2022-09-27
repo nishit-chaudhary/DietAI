@@ -1,5 +1,5 @@
 <?php
-// if SignUp is clicked then run this code
+$showAlert = false;
 if(isset($_POST['signup']))
 {
 require_once "config.php";
@@ -46,7 +46,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $cpassword_err = "Password did not match.";
         }
     }
+    
     if (empty($username_err) && empty($password_err) && empty($cpassword_err)) {
+        $showAlert = true;
         $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
         $stmt = mysqli_prepare($conn, $sql);
         if ($stmt) {
@@ -230,7 +232,20 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
     </div>
     <!-- Navbar End -->
+    <?php
+    if($showAlert){
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> Your account is now created and you can login
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>';
+    }
 
+    ?>
+    <!-- <div class="alert alert-success" role="alert">
+         A simple success alert—check it out!
+    </div> -->
 
     <!-- login - register form -->
     <div class="container-fluid py-5">

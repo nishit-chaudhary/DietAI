@@ -117,7 +117,7 @@
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <h1 class="section-title position-relative text-center mb-5">Delicious Ice Cream Made From Our Very Own Organic Milk</h1>
+                    <h1 class="section-title position-relative text-center mb-5">Diet Diet Diet Diet </h1>
                 </div>
             </div>
             <div class="row">
@@ -191,7 +191,7 @@
             <div class="row">
                 <div class="col-12 mb-4">
                     <a href="index.html" class="navbar-brand m-0">
-                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">i</span>CREAM</h1>
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Diet</span>AI</h1>
                     </a>
                 </div>
                 <div class="col-12 mb-4">
@@ -204,8 +204,8 @@
                     <div class="row">
                         <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
                             <h5 class="font-weight-bold mb-2">Get In Touch</h5>
-                            <p class="mb-2">123 Street, New York, USA</p>
-                            <p class="mb-0">+012 345 67890</p>
+                            <p class="mb-2">VIT, Vellore, India</p>
+                            <p class="mb-0">+91 9876543210</p>
                         </div>
                         <div class="col-sm-6 text-center text-sm-left">
                             <h5 class="font-weight-bold mb-2">Opening Hours</h5>
@@ -214,10 +214,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12">
-                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a href="https://htmlcodex.com">HTML Codex</a>
-                    </p>
-                </div>
+
             </div>
         </div>
     </div>
