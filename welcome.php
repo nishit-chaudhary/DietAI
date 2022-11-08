@@ -25,6 +25,18 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+    ul {
+    list-style: none;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    }
+    ul li {
+        display: block;
+        padding: 10px 0;
+    }
+</style>
 
 <body>
     <!-- Topbar Start -->
@@ -143,22 +155,58 @@
                             <div>
                                 <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Get Diet</button>
                             </div>
-                        </form>
-                        <div>
-                            <p id="result"></p>
+                        </form> <br><br>
+
+                        <div id="recommendation" style="display: none; ">
+                            <h1 class="section-title position-relative text-center mb-5"> <small>Your Diet Plan</small></h1>
+                            <div id="dietplan">
+                                <ul id="dietplanlist">
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="height: 50px; display:flex;">
+                            <p id="result" style="word-wrap: break-word; margin: auto;"></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    
+    
+
+
     <script>
         // send fetch request to flask server
         async function sendRequest() {
             event.preventDefault();
             const resp = await fetch(`http://127.0.0.1:5000?height=${document.forms[0].height.value}&weight=${document.forms[0].weight.value}&veg=${document.forms[0].veg.value}&age=${document.forms[0].age.value}&response=${document.forms[0].response.value}`);
             const json = await resp.json();
-            document.getElementById("result").innerHTML = `<pre>${JSON.stringify(json, null, 2)}</pre>`;
+            var output = `${JSON.stringify(json, null, 2)}`;
+            // display div recommendation
+            document.getElementById("recommendation").style.display = "block";
+            // remove the square brackets from the output
+            output = output.replace("[", "");
+            output = output.replace("]", "");
+            // convert the output to a string
+            output = output.toString();
+            // remove the double quotes from the output
+            output = output.replace(/"/g, "");
+            // split the output into an array
+            output = output.split(",");
+            // display the output in 3 columns
+            var i;
+            for (i = 0; i < output.length; i++) {
+                document.getElementById("dietplanlist").innerHTML += "<li>" + output[i] + "</li>";
+            }
+        
+            
+            // document.getElementById("result").innerHTML = output.join("<br>");
+
+
+            // document.getElementById("result").innerHTML = output;
+            
   }
             // fetch(`http://127.0.0.1:5000?height=${document.forms[0].height.value}&weight=${document.forms[0].weight.value}&veg=${document.forms[0].veg.value}&age=${document.forms[0].age.value}&response=${document.forms[0].response.value}`, {
         //         method: 'GET',
