@@ -25,6 +25,18 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
+<style>
+    ul {
+    list-style: none;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    }
+    ul li {
+        display: block;
+        padding: 10px 0;
+    }
+</style>
 
 <body>
     <!-- Topbar Start -->
@@ -106,34 +118,112 @@
                 <div class="col-lg-9">
                     <div class="contact-form bg-light rounded p-5">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" method="GET" onsubmit="sendRequest()">
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="height" placeholder="Your height in cms" required="required" data-validation-required-message="Please enter your height" />
+                                    <input type="text" class="form-control p-4" id="height" name="height" placeholder="Your height in cms" required="required" data-validation-required-message="Please enter your height" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="weight" placeholder="Your weight in kgs" required="required" data-validation-required-message="Please enter your weight" />
+                                    <input type="text" class="form-control p-4" id="weight" name="weight" placeholder="Your weight in kgs" required="required" data-validation-required-message="Please enter your weight" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="veg-nonveg" placeholder="Your preference for Veg/Non-Veg" required="required" data-validation-required-message="Please enter your preference" />
+                                    <input type="text" class="form-control p-4" id="veg-nonveg" name="veg" placeholder="Your preference for Veg/Non-Veg" required="required" data-validation-required-message="Please enter your preference" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="col-sm-6 control-group">
-                                    <input type="text" class="form-control p-4" id="age" placeholder="Your Age" required="required" data-validation-required-message="Please enter your Age" />
+                                    <input type="text" class="form-control p-4" id="age" name="age" placeholder="Your Age" required="required" data-validation-required-message="Please enter your Age" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
+                            <!-- add radio button to for weightgain and weightloss -->
+                            <div class="form-row">
+                                <div class="col-sm-6 control-group">
+                                    <input type="radio"  id="weightgain" value="weightgain" name="response" required="required" data-validation-required-message="Please enter your preference" />
+                                    <!-- add label for weightgain -->
+                                    <label for="weightgain">Weight Gain</label>
+                                </div>
+                                <div class="col-sm-6 control-group">
+                                    <input type="radio"  id="weightloss" value="weightloss" name="response" required="required" data-validation-required-message="Please enter your preference" />
+                                    <!-- add label for weightgain -->
+                                    <label for="weightloss">Weight Loss</label>
+                                </div>
+                            </div>   
                             <div>
-                                <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
+                                <button class="btn btn-primary btn-block py-3 px-5" type="submit" id="sendMessageButton">Get Diet</button>
                             </div>
-                        </form>
+                        </form> <br><br>
+
+                        <div id="recommendation" style="display: none; ">
+                            <h1 class="section-title position-relative text-center mb-5"> <small>Your Diet Plan</small></h1>
+                            <div id="dietplan">
+                                <ul id="dietplanlist">
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="height: 50px; display:flex;">
+                            <p id="result" style="word-wrap: break-word; margin: auto;"></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Contact End -->
+
+    
+    
+
+
+    <script>
+        // send fetch request to flask server
+        async function sendRequest() {
+            event.preventDefault();
+            const resp = await fetch(`http://127.0.0.1:5000?height=${document.forms[0].height.value}&weight=${document.forms[0].weight.value}&veg=${document.forms[0].veg.value}&age=${document.forms[0].age.value}&response=${document.forms[0].response.value}`);
+            const json = await resp.json();
+            var output = `${JSON.stringify(json, null, 2)}`;
+            // display div recommendation
+            document.getElementById("recommendation").style.display = "block";
+            // remove the square brackets from the output
+            output = output.replace("[", "");
+            output = output.replace("]", "");
+            // convert the output to a string
+            output = output.toString();
+            // remove the double quotes from the output
+            output = output.replace(/"/g, "");
+            // split the output into an array
+            output = output.split(",");
+            // display the output in 3 columns
+            var i;
+            for (i = 0; i < output.length; i++) {
+                document.getElementById("dietplanlist").innerHTML += "<li>" + output[i] + "</li>";
+            }
+        
+            
+            // document.getElementById("result").innerHTML = output.join("<br>");
+
+
+            // document.getElementById("result").innerHTML = output;
+            
+  }
+            // fetch(`http://127.0.0.1:5000?height=${document.forms[0].height.value}&weight=${document.forms[0].weight.value}&veg=${document.forms[0].veg.value}&age=${document.forms[0].age.value}&response=${document.forms[0].response.value}`, {
+        //         method: 'GET',
+        //         headers: {
+        //             'Access-Control-Allow-Origin': '*',
+        //             'Content-Type': 'application/json'
+        //         }
+        //     })
+        //     // get response from flask server
+        //     .then(response => console.log(response.json()))
+        //     .then(data => {
+        //         console.log(data);
+        //         document.getElementById("result").innerHTML = data;
+        //     })
+        //     .catch(err => console.log(err));
+        // }
+        </script>
+    </body>
+    </html>
+
