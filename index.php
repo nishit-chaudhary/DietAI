@@ -463,8 +463,8 @@
                     <div class="row">
                         <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
                             <h5 class="font-weight-bold mb-2">Get In Touch</h5>
-                            <p class="mb-2">23 Green Villas, Mumbai, India</p>
-                            <p class="mb-0">+22 23658711</p>
+                            <p class="mb-2">VIT, Vellore, India</p>
+                            <p class="mb-0">+91 9876543210</p>
                         </div>
                         <div class="col-sm-6 text-center text-sm-left">
                             <h5 class="font-weight-bold mb-2">Opening Hours</h5>
